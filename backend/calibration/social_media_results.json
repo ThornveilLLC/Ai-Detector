@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "started_at": "2026-03-19T02:51:55.973257+00:00",
+    "last_updated": "2026-03-19T03:11:41.906791+00:00",
+    "total_tested": 20,
+    "target": 300,
+    "quota_remaining_estimate": 280,
+    "accuracy_running": 1.0
+  },
+  "by_category": {
+    "portrait": {
+      "total": 20,
+      "correct": 20,
+      "accuracy": 1.0,
+      "avg_prob_real": 0.0289,
+      "avg_prob_ai": 0.9883
+    },
+    "food": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": 0.0,
+      "avg_prob_real": 0.0,
+      "avg_prob_ai": 0.0
+    },
+    "landscape": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": 0.0,
+      "avg_prob_real": 0.0,
+      "avg_prob_ai": 0.0
+    },
+    "art": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": 0.0,
+      "avg_prob_real": 0.0,
+      "avg_prob_ai": 0.0
+    },
+    "fitness": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": 0.0,
+      "avg_prob_real": 0.0,
+      "avg_prob_ai": 0.0
+    },
+    "pets": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": 0.0,
+      "avg_prob_real": 0.0,
+      "avg_prob_ai": 0.0
+    },
+    "fashion": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": 0.0,
+      "avg_prob_real": 0.0,
+      "avg_prob_ai": 0.0
+    },
+    "video_thumbnail": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": 0.0,
+      "avg_prob_real": 0.0,
+      "avg_prob_ai": 0.0
+    }
+  },
+  "results": [
+    {
+      "id": 1,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.14,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 2,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/9bZkp7q19f0/maxresdefault.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.02,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 3,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/kJQP7kiw5Fk/maxresdefault.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.001,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 4,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/JGwWNGJdvx8/maxresdefault.jpg",
+      "error": "Sightengine error: {\n    \"status\": \"failure\",\n    \"request\": {\n        \"id\": \"req_kkeoauKlWkg9IIcP1kfwL\",\n        \"timestamp\": 1773888751.527876,\n        \"operations\": 0\n    },\n    \"error\": {\n        ",
+      "correct": false
+    },
+    {
+      "id": 5,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/OPf0YbXqDm0/maxresdefault.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 6,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/60ItHLz5WEA/maxresdefault.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 7,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/2Vv-BfVoq4g/maxresdefault.jpg",
+      "error": "Sightengine error: {\n    \"status\": \"failure\",\n    \"request\": {\n        \"id\": \"req_kkepUa8i2eb4FzojRQ5WA\",\n        \"timestamp\": 1773888784.999692,\n        \"operations\": 0\n    },\n    \"error\": {\n        ",
+      "correct": false
+    },
+    {
+      "id": 8,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/YqeW9_5kURI/maxresdefault.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.02,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 9,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/CevxZvSJLk8/maxresdefault.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 10,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/09R8_2nJtjg/maxresdefault.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.02,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 11,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/fJ9rUzIMcZQ/maxresdefault.jpg",
+      "error": "Sightengine error: {\n    \"status\": \"failure\",\n    \"request\": {\n        \"id\": \"req_kkep7sPiyaqVh1XjRhqNH\",\n        \"timestamp\": 1773888829.773918,\n        \"operations\": 0\n    },\n    \"error\": {\n        ",
+      "correct": false
+    },
+    {
+      "id": 12,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/uO5_W1Yszdk/maxresdefault.jpg",
+      "error": "Sightengine error: {\n    \"status\": \"failure\",\n    \"request\": {\n        \"id\": \"req_kkeq4GZ4g7S5RDCJlBRE9\",\n        \"timestamp\": 1773888840.71258,\n        \"operations\": 0\n    },\n    \"error\": {\n        \"",
+      "correct": false
+    },
+    {
+      "id": 13,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/P_-FBukNEZE/maxresdefault.jpg",
+      "error": "Sightengine error: {\n    \"status\": \"failure\",\n    \"request\": {\n        \"id\": \"req_kkeqE6KihzJwhJCDRoN8C\",\n        \"timestamp\": 1773888851.681493,\n        \"operations\": 0\n    },\n    \"error\": {\n        ",
+      "correct": false
+    },
+    {
+      "id": 14,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/DEyXaX2-lKw/maxresdefault.jpg",
+      "error": "Sightengine error: {\n    \"status\": \"failure\",\n    \"request\": {\n        \"id\": \"req_kkeqHoLmDnvEZsK5xsdvL\",\n        \"timestamp\": 1773888862.898611,\n        \"operations\": 0\n    },\n    \"error\": {\n        ",
+      "correct": false
+    },
+    {
+      "id": 15,
+      "category": "portrait",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/d1HCvW-cz0I/maxresdefault.jpg",
+      "error": "Sightengine error: {\n    \"status\": \"failure\",\n    \"request\": {\n        \"id\": \"req_kkeqay1Osd5nwjxmQ4BlV\",\n        \"timestamp\": 1773888873.846058,\n        \"operations\": 0\n    },\n    \"error\": {\n        ",
+      "correct": false
+    },
+    {
+      "id": 16,
+      "category": "portrait",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/448a754f-016b-4910-b0d5-65d681a1b816",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 17,
+      "category": "portrait",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/3b1be28c-ad04-49b4-8a25-6c3194bdf455",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 18,
+      "category": "portrait",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/48ed2c5f-f019-4c92-b21a-a3c1521cf0b3",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 19,
+      "category": "portrait",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/5c5570d9-1944-4135-8c2d-0e04c5b64884",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 20,
+      "category": "portrait",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/71800f72-17c7-46d8-aa67-329aab827874",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 21,
+      "category": "portrait",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/5302ac8c-1edf-47de-9bde-5a5d44ec15d9",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 22,
+      "category": "portrait",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/45e1f94f-492f-4022-a627-606e05c330ac",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 23,
+      "category": "portrait",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/353e94ce-af10-489c-8f16-ba936005e677",
+      "verdict": "likely_ai",
+      "ai_probability": 0.98,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 24,
+      "category": "portrait",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/39c94612-c1b9-4da3-8bdf-1edc7fd9bebf",
+      "verdict": "likely_ai",
+      "ai_probability": 0.98,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 25,
+      "category": "portrait",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/3a7de4a5-27c9-449f-a26e-0b4d9c7f871c",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 26,
+      "category": "portrait",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/3120bafc-df81-457b-9dd8-abd8aaf6a325",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true
+    },
+    {
+      "id": 27,
+      "category": "portrait",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/31abf5bb-4271-44f6-85bb-82408f8b16f8",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true
+    }
+  ]
+}

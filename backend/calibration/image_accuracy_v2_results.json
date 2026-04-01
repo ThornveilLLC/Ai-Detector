@@ -1,0 +1,717 @@
+{
+  "meta": {
+    "started_at": "2026-03-21T18:54:14.478837+00:00",
+    "last_updated": "2026-03-21T19:08:54.984223+00:00",
+    "total_tested": 56,
+    "target": 100,
+    "accuracy_running": 0.9821,
+    "version": "v2 \u2014 verified URLs only"
+  },
+  "by_category": {
+    "food": {
+      "total": 12,
+      "correct": 11,
+      "accuracy": 0.9167,
+      "avg_prob_real": 0.0055,
+      "avg_prob_ai": 0.9055
+    },
+    "landscape": {
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "avg_prob_real": 0.0,
+      "avg_prob_ai": 0.9873
+    },
+    "classic_art": {
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "avg_prob_real": 0.0,
+      "avg_prob_ai": 0.9873
+    },
+    "fitness": {
+      "total": 14,
+      "correct": 14,
+      "accuracy": 1.0,
+      "avg_prob_real": 0.0103,
+      "avg_prob_ai": 0.9864
+    },
+    "pets": {
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "avg_prob_real": 0.0,
+      "avg_prob_ai": 0.9855
+    }
+  },
+  "results": [
+    {
+      "id": 1,
+      "category": "food",
+      "ground_truth": "real",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/640px-Good_Food_Display_-_NCI_Visuals_Online.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 2,
+      "category": "food",
+      "ground_truth": "real",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Big_Mac_hamburger.jpg/1200px-Big_Mac_hamburger.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.001,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 3,
+      "category": "food",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/1e209904-6a7f-4a62-bbaf-5ac96a286374",
+      "verdict": "likely_ai",
+      "ai_probability": 0.97,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 4,
+      "category": "food",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/251d827f-4eb2-48f6-baa3-4384fe796610",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 5,
+      "category": "food",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/261f44f2-cd78-4068-af99-584c6f6ac288",
+      "verdict": "likely_human",
+      "ai_probability": 0.12,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": false
+    },
+    {
+      "id": 6,
+      "category": "food",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/26a9441c-8a7e-471f-a938-43cd89d3abed",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 7,
+      "category": "food",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/219a6f8f-c843-490b-b14b-e2bb9bb08137",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 8,
+      "category": "food",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/16978848-b4df-474a-870d-1590572472df",
+      "verdict": "likely_ai",
+      "ai_probability": 0.98,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 9,
+      "category": "food",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/1cc6088c-cdff-431d-9fcf-39b5aec3ed3b",
+      "verdict": "likely_ai",
+      "ai_probability": 0.96,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 10,
+      "category": "food",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/1a24f91d-68e8-40ff-877c-0b3c97fb748c",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 11,
+      "category": "food",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/10e57c91-0f6b-4c5b-aa4c-d0412205b998",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 12,
+      "category": "food",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/1576db8c-f71b-4f1b-90d5-ee17c194fd63",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 13,
+      "category": "landscape",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/20c2353f-6332-418b-9a6b-ef1a71623bb2",
+      "verdict": "likely_ai",
+      "ai_probability": 0.98,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 14,
+      "category": "landscape",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/431ea5df-34b8-4837-8b2f-4083f72e3627",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 15,
+      "category": "landscape",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/43494151-8556-4e45-9495-3e328aaf44d6",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 16,
+      "category": "landscape",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/48775d36-c1f5-47a7-a26f-8ffc8e61bcfa",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 17,
+      "category": "landscape",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/488b425a-c5a3-43bf-ae9f-5ee1d32c26a3",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 18,
+      "category": "landscape",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/3ed14f41-7872-4dea-b7de-870f480877f4",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 19,
+      "category": "landscape",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/30672488-9133-4a31-a100-14099a8f6b80",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 20,
+      "category": "landscape",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/3b224c08-354c-4f2b-b87f-4be5a249f7a9",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 21,
+      "category": "landscape",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2bedda0b-4937-4b31-aadb-1005c1df9f85",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 22,
+      "category": "landscape",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2d1286e5-2bba-49f2-b950-ab12b2a1bc8b",
+      "verdict": "likely_ai",
+      "ai_probability": 0.97,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 23,
+      "category": "classic_art",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/28a3a9e4-37ec-4f47-9d34-ea19d2ba7d40",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 24,
+      "category": "classic_art",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2ce597cb-6809-4e27-92c3-078b62c714a3",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 25,
+      "category": "classic_art",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2d69e174-ba4b-47f3-9c75-139f2259a783",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 26,
+      "category": "classic_art",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2d08923c-5aa9-4f31-950d-9612302a1251",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 27,
+      "category": "classic_art",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2ad786bb-563f-4653-9abe-ee2c34849748",
+      "verdict": "likely_ai",
+      "ai_probability": 0.96,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 28,
+      "category": "classic_art",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/1d9f20fb-2141-45bd-9d9e-68b3e17fc178",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 29,
+      "category": "classic_art",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/1f52de9a-3ce7-4706-a499-bd11115b140c",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 30,
+      "category": "classic_art",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/22397953-32ff-4e5c-9872-e2947264d86a",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 31,
+      "category": "classic_art",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/274b7b1d-c0aa-4b8b-ba40-51e84dbfa0d4",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 32,
+      "category": "classic_art",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/283e96b3-44bd-4bca-88b7-a6352e4e1f7c",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 33,
+      "category": "fitness",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/vc1E5CfRfos/maxresdefault.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.001,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 34,
+      "category": "fitness",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/cbKkB3POqaY/maxresdefault.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.02,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 35,
+      "category": "fitness",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/g_tea8ZNk5A/maxresdefault.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 36,
+      "category": "fitness",
+      "ground_truth": "real",
+      "url": "https://img.youtube.com/vi/oBu-pQG6sTY/maxresdefault.jpg",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 37,
+      "category": "fitness",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/34ba000f-b770-4bcd-9055-6fc8560decda",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 38,
+      "category": "fitness",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/36529cbf-c453-41bd-98ce-6e75ccee640b",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 39,
+      "category": "fitness",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/3c1dd298-56ea-4acc-9255-21deaed12634",
+      "verdict": "likely_ai",
+      "ai_probability": 0.98,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 40,
+      "category": "fitness",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/38951d7f-431d-430c-a193-15c460f2daab",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 41,
+      "category": "fitness",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/34c4b9c3-3b1f-4d49-b0d0-b36d94d7975b",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 42,
+      "category": "fitness",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/3512072e-8fa5-479a-8b62-59ed2cfdd7a5",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 43,
+      "category": "fitness",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2d9555b8-c9f7-4953-b5bb-78041d733fb3",
+      "verdict": "likely_ai",
+      "ai_probability": 0.96,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 44,
+      "category": "fitness",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2ea94e52-18a5-4077-aa69-801cf9891042",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 45,
+      "category": "fitness",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/33be04b3-de71-4df0-bd79-72da05113ae9",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 46,
+      "category": "fitness",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/1d62ff6d-b7bc-4aa2-82d0-2bbdf77367a7",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 47,
+      "category": "pets",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/1eea74a3-ff0b-4959-bb1f-c5c2a1c48f3d",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 48,
+      "category": "pets",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/30552140-193e-43ec-b188-55a78fb3bf52",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 49,
+      "category": "pets",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/3437f669-a6d4-4f62-b2e1-8502de34bd0d",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 50,
+      "category": "pets",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/355ad1db-f608-46f1-a90c-29ad75f6b6a6",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 51,
+      "category": "pets",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2ee495a5-d16b-4746-bc49-f9e5529526b1",
+      "verdict": "likely_ai",
+      "ai_probability": 0.98,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 52,
+      "category": "pets",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/296b99ca-c140-45b3-8f8c-2b0056734ca1",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 53,
+      "category": "pets",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2c60f12a-d471-4d04-82f6-a6ed0455f839",
+      "verdict": "likely_ai",
+      "ai_probability": 0.98,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 54,
+      "category": "pets",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2ec53f09-af62-4ff5-b31f-550fc90518ea",
+      "verdict": "likely_ai",
+      "ai_probability": 0.98,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 55,
+      "category": "pets",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/27c2b6af-31dc-4def-acb0-e274d3a5ccd7",
+      "verdict": "likely_ai",
+      "ai_probability": 0.98,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    },
+    {
+      "id": 56,
+      "category": "pets",
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/20d374aa-ae2b-4116-8c60-9349d7b40567",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "suspected_source": null,
+      "correct": true
+    }
+  ],
+  "summary": {
+    "total_tested": 56,
+    "skipped": 44,
+    "real_count": 6,
+    "ai_count": 50,
+    "overall_accuracy": 0.9821,
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 0.02,
+    "uncertain_rate": 0.0,
+    "avg_prob_real": 0.0087,
+    "avg_prob_ai": 0.9686,
+    "classic_art_fp_count": 0,
+    "classic_art_fp_note": "Classic paintings correctly classified as human",
+    "by_category": {
+      "food": {
+        "total": 12,
+        "correct": 11,
+        "accuracy": 0.9167,
+        "avg_prob_real": 0.0055,
+        "avg_prob_ai": 0.9055
+      },
+      "landscape": {
+        "total": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "avg_prob_real": 0.0,
+        "avg_prob_ai": 0.9873
+      },
+      "classic_art": {
+        "total": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "avg_prob_real": 0.0,
+        "avg_prob_ai": 0.9873
+      },
+      "fitness": {
+        "total": 14,
+        "correct": 14,
+        "accuracy": 1.0,
+        "avg_prob_real": 0.0103,
+        "avg_prob_ai": 0.9864
+      },
+      "pets": {
+        "total": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "avg_prob_real": 0.0,
+        "avg_prob_ai": 0.9855
+      }
+    },
+    "notes": "v2 \u2014 56 tests, 44 skipped. Verified Lexica UUIDs only."
+  }
+}

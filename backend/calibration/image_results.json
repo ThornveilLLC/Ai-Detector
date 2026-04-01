@@ -1,0 +1,316 @@
+{
+  "summary": {
+    "total": 30,
+    "correct": 30,
+    "accuracy": 1.00,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "avg_prob_real": 0.01,
+    "avg_prob_ai": 0.99,
+    "current_thresholds": { "likely_ai": 0.75, "uncertain": 0.40 },
+    "recommended_thresholds": { "likely_ai": 0.75, "uncertain": 0.40 },
+    "notes": "POST-FIX RUN (2026-03-18): Sightengine parse bug fixed and backend restarted. All 30 images now correctly classified — 30/30 correct (100% accuracy). Real photos (15): all returned verdict=likely_human, ai_probability range 0.01–0.02, avg 0.01. AI-generated images (15): all returned verdict=likely_ai, ai_probability range 0.98–0.99, avg 0.99. Zero false positives, zero false negatives. No uncertain verdicts. Score distribution shows clean bimodal separation with real images clustering at 0.01–0.02 and AI images at 0.98–0.99 — no overlap, no borderline cases. Current thresholds (likely_ai >= 0.75, uncertain >= 0.40) are well-calibrated for this dataset and no adjustment is needed."
+  },
+  "results": [
+    {
+      "id": 1,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/10/1200/800.jpg?hmac=fFdxJSYetBnQ8BUWcEuy--QakfwvxN_D4WJj2RElm5w",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 1%."
+    },
+    {
+      "id": 2,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/20/1200/800.jpg?hmac=IahNmJfaDL28QecWj-LWOoHhIT-7NbhTP9q5y8aUb8Y",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 1%."
+    },
+    {
+      "id": 3,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/30/1200/800.jpg?hmac=afXmhYgpU9yhSt_R9WXJ3rmLDFcMxN6DQ-bsyNRWpYk",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 1%."
+    },
+    {
+      "id": 4,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/40/1200/800.jpg?hmac=cPVbrEZ57OIDWjvSiW7SU2mPSj4geypXjfaGZLVeeRY",
+      "verdict": "likely_human",
+      "ai_probability": 0.02,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 2%."
+    },
+    {
+      "id": 5,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/50/1200/800.jpg?hmac=UNZi_CcWswJeUY6wsOfp7esTSRVY45c3fgDyFRu_lx0",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 1%."
+    },
+    {
+      "id": 6,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/60/1200/800.jpg?hmac=_XnA6O4QY2yjhPz4tY04x9jRszWTdSpivUfmihbnSLU",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 1%."
+    },
+    {
+      "id": 7,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/70/1200/800.jpg?hmac=fPuwsn5zvB5fFrrjAtw7COndrS_LT81LKPLKN8oPtNA",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 1%."
+    },
+    {
+      "id": 8,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/80/1200/800.jpg?hmac=s2oyms-lz0ksG4evdob1YmrNGsc2TIRg_U9jdstU_Is",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 1%."
+    },
+    {
+      "id": 9,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/90/1200/800.jpg?hmac=cUOaucY-QtxNaqydpmo6BjnuaJrR7FGLw3KMeYT8FIk",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 1%."
+    },
+    {
+      "id": 10,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/100/1200/800.jpg?hmac=eTKVPD_DYlFmuPAZa-6vt3BNrLD02M4aBZG5L4SaqVU",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 1%."
+    },
+    {
+      "id": 11,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/110/1200/800.jpg?hmac=yaVMEuoRFLGDeZrXNaX_fvSRtz-EeXwK4XK63uQmRF4",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 1%."
+    },
+    {
+      "id": 12,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/120/1200/800.jpg?hmac=xJvmnYbGPusGauQ1wHAeq-rmF_c-jEUmraVSRH4h16s",
+      "verdict": "likely_human",
+      "ai_probability": 0.02,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 2%."
+    },
+    {
+      "id": 13,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/130/1200/800.jpg?hmac=GbodTP8x62ShxZrWkxw_7q9pJ2rKLjkx2oP5wVaGiGs",
+      "verdict": "likely_human",
+      "ai_probability": 0.02,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 2%."
+    },
+    {
+      "id": 14,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/140/1200/800.jpg?hmac=FwQhacOnlCgwtR5oJXt7QB9utQWJUN6nsziNTK_Ufs0",
+      "verdict": "likely_human",
+      "ai_probability": 0.01,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 1%."
+    },
+    {
+      "id": 15,
+      "ground_truth": "real",
+      "url": "https://fastly.picsum.photos/id/160/1200/800.jpg?hmac=EPYhVx7alZLUkXS32HA8XXf903PCrZe3z9HjYcXr71A",
+      "verdict": "likely_human",
+      "ai_probability": 0.02,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "Real photograph from Unsplash/picsum. Correctly classified as likely_human. AI probability: 2%."
+    },
+    {
+      "id": 16,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2be9ac35-1d82-40ab-9e29-0dd236bf90f3",
+      "verdict": "likely_ai",
+      "ai_probability": 0.98,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 98%."
+    },
+    {
+      "id": 17,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/35acddd7-14a7-4b1c-b99e-94e6cbe506a2",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 99%."
+    },
+    {
+      "id": 18,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/364ea3de-1fa4-471b-9113-21d98d7d2d62",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 99%."
+    },
+    {
+      "id": 19,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/1c2eee42-659e-42f9-8d93-712723e47212",
+      "verdict": "likely_ai",
+      "ai_probability": 0.98,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 98%."
+    },
+    {
+      "id": 20,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/1d057d13-afcc-4df6-a85e-ffef3b2639cf",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 99%."
+    },
+    {
+      "id": 21,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2a6b5335-421f-4357-8bc1-fad07e63d184",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 99%."
+    },
+    {
+      "id": 22,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2b8ca3fc-7aa7-49a1-9eae-ff76a5183bce",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 99%."
+    },
+    {
+      "id": 23,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2bca99f0-b7f6-479f-b39c-2664562023d1",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 99%."
+    },
+    {
+      "id": 24,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/2bcbf654-4bfa-4634-bcac-9a0539902774",
+      "verdict": "likely_ai",
+      "ai_probability": 0.98,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 98%."
+    },
+    {
+      "id": 25,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/00fec92e-e412-49cd-9f8c-67dc8ea7a874",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 99%."
+    },
+    {
+      "id": 26,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/039c1672-258e-43a9-be6f-b14c41c2fd84",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 99%."
+    },
+    {
+      "id": 27,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/04f08331-11f0-4c18-8c44-06553d7b46f3",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 99%."
+    },
+    {
+      "id": 28,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/0b086bd7-69b1-4786-9bc0-6725c7586821",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 99%."
+    },
+    {
+      "id": 29,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/0c128e6b-2edc-4269-9899-a8719ea5f7bd",
+      "verdict": "likely_ai",
+      "ai_probability": 0.99,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 99%."
+    },
+    {
+      "id": 30,
+      "ground_truth": "ai_generated",
+      "url": "https://image.lexica.art/md2_webp/0ed15764-217d-4724-b046-c793dd781faf",
+      "verdict": "likely_ai",
+      "ai_probability": 0.98,
+      "confidence": "high",
+      "correct": true,
+      "explanation": "AI-generated image from Lexica.art (Stable Diffusion). Correctly classified as likely_ai. AI probability: 98%."
+    }
+  ]
+}

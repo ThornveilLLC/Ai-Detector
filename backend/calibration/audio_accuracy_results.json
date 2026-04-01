@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "started_at": "2026-03-22T19:41:20.575812+00:00",
+    "last_updated": "2026-03-22T19:47:27.769216+00:00",
+    "total_tested": 0,
+    "target": 20,
+    "accuracy_running": 0.0,
+    "note": "First-ever Hive audio calibration run"
+  },
+  "by_category": {},
+  "results": [],
+  "skipped_urls": [
+    {
+      "url": "https://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0010_8k.wav",
+      "ground_truth": "real",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0011_8k.wav",
+      "ground_truth": "real",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0012_8k.wav",
+      "ground_truth": "real",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0013_8k.wav",
+      "ground_truth": "real",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0014_8k.wav",
+      "ground_truth": "real",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0015_8k.wav",
+      "ground_truth": "real",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0016_8k.wav",
+      "ground_truth": "real",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0017_8k.wav",
+      "ground_truth": "real",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0018_8k.wav",
+      "ground_truth": "real",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0019_8k.wav",
+      "ground_truth": "real",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/samples/HEARME.wav",
+      "ground_truth": "ai_generated",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/samples/af_heart_0.wav",
+      "ground_truth": "ai_generated",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/samples/af_heart_1.wav",
+      "ground_truth": "ai_generated",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/samples/af_heart_2.wav",
+      "ground_truth": "ai_generated",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/samples/af_heart_3.wav",
+      "ground_truth": "ai_generated",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/samples/af_heart_4.wav",
+      "ground_truth": "ai_generated",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/samples/af_heart_5.wav",
+      "ground_truth": "ai_generated",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://huggingface.co/coqui/XTTS-v2/resolve/main/samples/en_sample.wav",
+      "ground_truth": "ai_generated",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://huggingface.co/coqui/XTTS-v2/resolve/main/samples/fr_sample.wav",
+      "ground_truth": "ai_generated",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://huggingface.co/coqui/XTTS-v2/resolve/main/samples/de_sample.wav",
+      "ground_truth": "ai_generated",
+      "error_type": "url_error",
+      "error": "HTTP Error 502: Bad Gateway"
+    }
+  ],
+  "summary": {
+    "total_tested": 0,
+    "skipped_count": 20,
+    "real_count": 0,
+    "ai_count": 0,
+    "overall_accuracy": 0.0,
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 0.0,
+    "uncertain_rate": 0.0,
+    "avg_prob_real": 0.0,
+    "avg_prob_ai": 0.0,
+    "avg_hive_ai_score_on_real": null,
+    "avg_hive_ai_score_on_ai": null,
+    "threshold_recommendation": "Insufficient data",
+    "threshold_note": "The 0.65 'likely_ai' threshold in scan.py was calibrated for images (bimodal 0.01/0.99). Audio may need a different threshold.",
+    "by_category": {},
+    "notes": "First-ever Hive audio calibration. 0 tests at 15s intervals."
+  }
+}
